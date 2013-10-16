@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="PrimeMinisters" company="" webLink="https://rawgithub.com/MasakiFujiwara/SouriDaijin/master/index.html" view-date="2013-10-16" view-index="0" gantt-divider-location="354" resource-divider-location="300" version="2.0" locale="ja_JP">
+<project name="PrimeMinisters" company="" webLink="https://rawgithub.com/MasakiFujiwara/SouriDaijin/master/index.html" view-date="2013-09-01" view-index="0" gantt-divider-location="340" resource-divider-location="300" version="2.0" locale="ja_JP">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="名前" width="57" order="0"/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="名前" width="56" order="0"/>
         <field id="tpd4" name="開始日" width="21" order="1"/>
         <field id="tpd5" name="終了日" width="21" order="2"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="名前" width="71" order="0"/>
-        <field id="1" name="役割" width="28" order="1"/>
+        <field id="0" name="名前" width="57" order="0"/>
+        <field id="1" name="役割" width="42" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -40,6 +40,11 @@
         <task id="2" name="開発計画書の作成" color="#8cb6ce" meeting="false" start="2013-10-16" duration="2" complete="0" expand="true"/>
         <task id="3" name="基本設計書の作成" color="#8cb6ce" meeting="false" start="2013-10-18" duration="3" complete="0" expand="true"/>
         <task id="4" name="詳細設計書の作成" color="#8cb6ce" meeting="false" start="2013-10-23" duration="7" complete="0" expand="true"/>
+        <task id="5" name="テスト計画書の作成" color="#8cb6ce" meeting="false" start="2013-11-01" duration="1" complete="0" expand="true"/>
+        <task id="6" name="Javaコーディング" color="#8cb6ce" meeting="false" start="2013-11-04" duration="10" complete="0" expand="true"/>
+        <task id="7" name="Pythonコーディング" color="#8cb6ce" meeting="false" start="2013-11-18" duration="15" complete="0" expand="true"/>
+        <task id="10" name="テスト" color="#8cb6ce" meeting="false" start="2013-12-09" duration="5" complete="0" expand="true"/>
+        <task id="12" name="その他ドキュメントの作成" color="#8cb6ce" meeting="false" start="2013-12-16" duration="8" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
@@ -54,9 +59,9 @@
         <displaycolumn property-id="tpd0" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd8" order="-1" width="75" visible="false"/>
         <displaycolumn property-id="tpd7" order="-1" width="75" visible="false"/>
-        <displaycolumn property-id="tpd3" order="0" width="199" visible="true"/>
-        <displaycolumn property-id="tpd4" order="1" width="75" visible="true"/>
-        <displaycolumn property-id="tpd5" order="2" width="74" visible="true"/>
+        <displaycolumn property-id="tpd3" order="0" width="190" visible="true"/>
+        <displaycolumn property-id="tpd4" order="1" width="72" visible="true"/>
+        <displaycolumn property-id="tpd5" order="2" width="72" visible="true"/>
     </taskdisplaycolumns>
     <previous/>
     <roles roleset-name="Default"/>
