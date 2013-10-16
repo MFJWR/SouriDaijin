@@ -38,6 +38,8 @@
         </taskproperties>
         <task id="0" name="プロジェクト開始" color="#8cb6ce" meeting="false" start="2013-10-16" duration="51" complete="0" expand="true"/>
         <task id="2" name="開発計画書の作成" color="#8cb6ce" meeting="false" start="2013-10-16" duration="2" complete="0" expand="true"/>
+        <task id="3" name="基本設計書の作成" color="#8cb6ce" meeting="false" start="2013-10-18" duration="3" complete="0" expand="true"/>
+        <task id="4" name="詳細設計書の作成" color="#8cb6ce" meeting="false" start="2013-10-23" duration="7" complete="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
