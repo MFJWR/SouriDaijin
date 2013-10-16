@@ -7,8 +7,8 @@
         <field id="tpd5" name="終了日" width="21" order="2"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="名前" width="57" order="0"/>
-        <field id="1" name="役割" width="42" order="1"/>
+        <field id="0" name="名前" width="52" order="0"/>
+        <field id="1" name="役割" width="47" order="1"/>
     </view>
     <!-- -->
     <calendars>
