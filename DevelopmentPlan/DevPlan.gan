@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="PrimeMinisters" company="" webLink="https://rawgithub.com/MasakiFujiwara/SouriDaijin/master/index.html" view-date="2013-09-01" view-index="0" gantt-divider-location="340" resource-divider-location="300" version="2.0" locale="ja_JP">
+<project name="PrimeMinisters" company="" webLink="https://rawgithub.com/MasakiFujiwara/SouriDaijin/master/index.html" view-date="2013-09-22" view-index="0" gantt-divider-location="340" resource-divider-location="300" version="2.0" locale="ja_JP">
     <description/>
-    <view zooming-state="default:8" id="gantt-chart">
+    <view zooming-state="default:7" id="gantt-chart">
         <field id="tpd3" name="名前" width="56" order="0"/>
         <field id="tpd4" name="開始日" width="21" order="1"/>
         <field id="tpd5" name="終了日" width="21" order="2"/>
@@ -36,15 +36,27 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="プロジェクト開始" color="#8cb6ce" meeting="false" start="2013-10-16" duration="51" complete="0" expand="true"/>
-        <task id="2" name="開発計画書の作成" color="#8cb6ce" meeting="false" start="2013-10-16" duration="2" complete="0" expand="true"/>
-        <task id="3" name="基本設計書の作成" color="#8cb6ce" meeting="false" start="2013-10-18" duration="3" complete="0" expand="true"/>
-        <task id="4" name="詳細設計書の作成" color="#8cb6ce" meeting="false" start="2013-10-23" duration="7" complete="0" expand="true"/>
-        <task id="5" name="テスト計画書の作成" color="#8cb6ce" meeting="false" start="2013-11-01" duration="1" complete="0" expand="true"/>
-        <task id="6" name="Javaコーディング" color="#8cb6ce" meeting="false" start="2013-11-04" duration="10" complete="0" expand="true"/>
-        <task id="7" name="Pythonコーディング" color="#8cb6ce" meeting="false" start="2013-11-18" duration="15" complete="0" expand="true"/>
-        <task id="10" name="テスト" color="#8cb6ce" meeting="false" start="2013-12-09" duration="5" complete="0" expand="true"/>
-        <task id="12" name="その他ドキュメントの作成" color="#8cb6ce" meeting="false" start="2013-12-16" duration="8" complete="0" expand="true"/>
+        <task id="0" name="プロジェクト開始" color="#8cb6ce" meeting="false" start="2013-10-18" duration="39" complete="0" expand="true">
+            <task id="15" name="分析" color="#8cb6ce" meeting="false" start="2013-10-18" duration="5" complete="0" expand="true">
+                <task id="14" name="要求仕様の分析" color="#8cb6ce" meeting="false" start="2013-10-18" duration="1" complete="0" expand="true"/>
+                <task id="2" name="開発計画書の作成" color="#8cb6ce" meeting="false" start="2013-10-21" duration="4" complete="0" expand="true"/>
+            </task>
+            <task id="13" name="設計" color="#8cb6ce" meeting="false" start="2013-10-24" duration="11" complete="0" expand="true">
+                <task id="21" name="基本設計書の作成" color="#8cb6ce" meeting="false" start="2013-10-24" duration="3" complete="0" expand="true"/>
+                <task id="23" name="詳細設計書の作成" color="#8cb6ce" meeting="false" start="2013-10-29" duration="5" complete="0" expand="true"/>
+                <task id="28" name="テスト仕様書の作成" color="#8cb6ce" meeting="false" start="2013-11-05" duration="3" complete="0" expand="true"/>
+            </task>
+            <task id="27" name="実装" color="#8cb6ce" meeting="false" start="2013-11-07" duration="21" complete="0" expand="true">
+                <task id="29" name="Javaコーディング" color="#8cb6ce" meeting="false" start="2013-11-07" duration="21" complete="0" expand="true"/>
+                <task id="30" name="Pythonコーディング" color="#8cb6ce" meeting="false" start="2013-11-07" duration="21" complete="0" expand="true"/>
+            </task>
+            <task id="42" name="テスト" color="#8cb6ce" meeting="false" start="2013-12-05" duration="2" complete="0" expand="true"/>
+            <task id="45" name="書類作成" color="#8cb6ce" meeting="false" start="2013-12-06" duration="4" complete="0" expand="true">
+                <task id="46" name="テスト結果報告書作成" color="#8cb6ce" meeting="false" start="2013-12-06" duration="2" complete="0" expand="true"/>
+                <task id="47" name="開発実績報告書作成" color="#8cb6ce" meeting="false" start="2013-12-09" duration="2" complete="0" expand="true"/>
+                <task id="48" name="マニュアル作成" color="#8cb6ce" meeting="false" start="2013-12-10" duration="2" complete="0" expand="true"/>
+            </task>
+        </task>
     </tasks>
     <resources/>
     <allocations/>
